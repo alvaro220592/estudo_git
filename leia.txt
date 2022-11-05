@@ -1,0 +1,2 @@
+desfazer git add:
+	git reset <arquivos>
