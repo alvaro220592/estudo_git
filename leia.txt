@@ -12,3 +12,5 @@ deletar branch remota:
 
 deletar branch local:
 	git branch -d <nome da branch>
+
+teste
