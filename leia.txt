@@ -13,5 +13,27 @@ deletar branch remota:
 deletar branch local:
 	git branch -d <nome da branch>
 
-enviando para master
+fluxo:
+	na branch dev, faça as alterações desejadas
 
+	envie para o repositório:
+		git add .
+		git commit -m 'descrição'
+		git push origin dev
+
+	altere a branch para master
+		git checkout master
+
+	faça o merge
+		git merge dev
+
+	envie ao repositório remoto(não precisa do git add, commit, etc
+		git push origin master
+
+	Para desfazer a alteração:
+		git reflog (irá mostrar os logs com seus id's. Pegue o log referente ao estado desejado para voltar)
+	
+	faça o reset:
+		git reset --hard S8DFG90
+
+	git push --force origin master
