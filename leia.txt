@@ -6,3 +6,9 @@ renomear branch atual (local e remota):
 
 nova branch:
 	git checkout -b dev
+
+deletar branch remota:
+	git push origin -d <nome da branch>
+
+deletar branch local:
+	git branch -d <nome da branch>
