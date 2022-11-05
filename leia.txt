@@ -1,2 +1,5 @@
 desfazer git add:
 	git reset <arquivos>
+
+renomear branch atual (local e remota):
+	git branch -m dev
